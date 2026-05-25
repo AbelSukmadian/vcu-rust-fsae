@@ -1,0 +1,25 @@
+[package]
+edition      = "2024"
+name         = "simulasi_vcu_final"
+rust-version = "1.88"
+version      = "0.1.0"
+
+[[bin]]
+name = "simulasi_vcu_final"
+path = "./src/bin/main.rs"
+
+[dependencies]
+esp-hal = { version = "~1.1.0", features = ["esp32s3", "unstable"] }
+esp-bootloader-esp-idf = { version = "0.5.0", features = ["esp32s3"] }
+critical-section = "1.2.0"
+esp-println = { version = "0.13.0", features = ["esp32s3", "log"] }
+esp-backtrace = { version = "0.15.0", features = ["esp32s3", "panic-handler", "println"] }
+
+[profile.dev]
+opt-level = "s"
+
+[profile.release]
+codegen-units = 1
+debug         = 2
+lto           = 'fat'
+opt-level     = 's'
