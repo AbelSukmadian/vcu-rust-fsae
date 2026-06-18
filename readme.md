@@ -16,6 +16,9 @@ This repository contains the firmware and documentation for a highly reliable, m
 * **FSAE Rule EV.5.6 Compliance (Panic Braking):** Plausibility checks that instantaneously cut off motor torque ($0\%$) in under 50ms if hard braking ($>10\%$) and acceleration ($>25\%$) occur simultaneously.
 * **Hardware-in-the-Loop (HIL) Validated:** Physical validation proven via Wokwi (SIL) and dynamic hardware stress testing using GNUPlot logging.
 
+## FOR THE FULL DOCUMENTATION, YOU CAN ACCESS THIS LINK
+https://drive.google.com/drive/folders/1nqE1XG8Y_QH-t3CGdDA5vijLVmUt-Rg6?usp=drive_link
+
 ## 🗂️ Repository Structure
 
 ```text
@@ -27,5 +30,3 @@ This repository contains the firmware and documentation for a highly reliable, m
 └── README.md
 
 
-## FOR THE FULL DOCUMENTATION, YOU CAN ACCESS THIS LINK
-https://drive.google.com/drive/folders/1nqE1XG8Y_QH-t3CGdDA5vijLVmUt-Rg6?usp=drive_link
