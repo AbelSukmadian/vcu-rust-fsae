@@ -25,3 +25,7 @@ This repository contains the firmware and documentation for a highly reliable, m
 ├── Cargo.toml              # Rust dependencies (esp-hal, embassy-rs)
 ├── wokwi.toml              # Wokwi simulation configuration
 └── README.md
+
+
+## FOR THE FULL DOCUMENTATION, YOU CAN ACCESS THIS LINK
+https://drive.google.com/drive/folders/1nqE1XG8Y_QH-t3CGdDA5vijLVmUt-Rg6?usp=drive_link
